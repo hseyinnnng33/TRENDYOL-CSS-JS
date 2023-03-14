@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    cursor: pointer;
+}
+
+#genel{
+    background-color: #fefefe;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #333;
+}
+
+.icerik{
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav .icerik{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.nav .icerik img{
+    width: 150px;
+}
+
+.nav .icerik .input input{
+    width: 600px;
+    height: 40px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+.nav .icerik ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav .icerik .bir li{
+    padding: 0 20px;
+}
+
+.nav .icerik .bir li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+.nav .icerik .bir li a i{
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+header{
+    width: 100%;
+}
+
+header .icerik{
+    padding: 8px 0;
+}
+
+header .icerik ul li{
+    padding: 0 13px;
+}
+
+header .icerik ul li a{
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+header .icerik ul li .bir-a{
+    border-bottom: 3px solid orange;
+    color: orange;
+}
+
+.kart-3{
+    width: 100%;
+}
+
+.kart-3 .kartlar{
+    padding: 10px 0;
+}
+
+.kart-3 .kartlar img{
+    width: 370px;
+    height: 90px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.bars{
+    width: 100%;
+}
+
+.bars .barlar{
+    display: flex;
+    padding: 50px 0;
+}
+
+.bars .barlar .div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.bars .barlar .div img:hover{
+    border: 2px solid orange;
+}
+
+.bars .barlar .div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+    align-items: center;
+}
+
+.bars .barlar .div:hover{
+    color: orange;
+}
+
+.kart-3 .kartlar-1{
+    padding: 15px 0
+}
+
+.kart-3 .kartlar-1 img{
+    margin: 0 8px;
+}
+
+.urunler {
+    width: 100%;
+}
+
+.urunler .urunler-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.urunler .urunler-1 img{
+    width: 385px;
+    /* height: 200px; */
+    /* margin: 10px 7px; */
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.urunler .urunler-1 .resim-yazi{
+    position: relative;
+    width: 385px;
+    margin: 10px 7px;
+}
+
+.urunler .urunler-1 .resim-yazi p{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: #000000;
+    width: 100%;
+    font-size: 14px;
+    padding: 6px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.urunler .urunler-1 .resim-yazi p:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.cok-satan{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cok-satan .satanlar{
+    background-color: #fffaf6;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f2e5da;
+}
+
+.cok-satan .satanlar .kart1{
+    width: 210px;
+    padding: 6px;
+    height: 364px;
+    background-color: #fefefe;
+    margin: 0 12px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f2e5da;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.cok-satan .satanlar img{
+    width: 120px;
+}
+
+.cok-satan .satanlar .kart1 .favoriler{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.cok-satan .satanlar .kart1 .favoriler .fa-regular{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0eeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cok-satan .satanlar .kart1 .favoriler .fa-solid{
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5fd07d;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0eeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    padding: 4px;
+}
+
+.cok-satan .satanlar .kart1 .favoriler .fa-solid::after{
+    content: "Hızlı Teslimat";
+    font-size: 12px;
+    padding-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cok-satan .satanlar .kart1 .yazilar{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.cok-satan .satanlar .kart1 .yazilar span{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.cok-satan .satanlar .kart1 .yazilar p{
+    font-size: 13px;
+    color: #666666;
+}
+
+
+
+.cok-satan .satanlar .kart1 .yazilar .indirim{
+    margin: 20px 0;
+}
+
+.cok-satan .satanlar .kart1 .yazilar .indirim .bir{
+    font-size: 15px;
+    color: rgb(253, 135, 0);
+    font-weight: bold;
+}
+
+.cok-satan .satanlar .kart1 .yazilar .indirim .yazilar-1{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.cok-satan .satanlar .kart1 .yazilar .indirim .yazilar-1 p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(227, 78, 78);
+    font-weight: bold;
+}
+
+header .icerik .gizli{
+    display: none;
+}
+
+.icerik-10 i{
+    display: none;
+    cursor: pointer;
+}
+
+/* #icerik-11{
+    display: none;
+}
+
+#icerik-11 i{
+    display: none;
+    cursor: pointer;
+}
+
+#gizli-nav{
+    display: none;
+} */
+
+@media(max-width: 900px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    header .icerik .acık{
+        display: none;
+    }
+
+    .nav .navbar .bir{
+        display: none;
+    }
+
+    .navbar{
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+
+    /* #icerik-11 {
+        display: block;
+        margin-right: 10px;
+    }
+
+    #icerik-11 #bars1{
+        display: block;
+        cursor: pointer;
+    }
+
+    #icerik-11 #bars-click11{
+        display: none;
+        cursor: pointer;
+    }
+
+    #icerik-11 i{
+        font-size: 18px;
+    }
+
+    #gizli-nav{
+        background: #333;
+    }
+
+    #gizli-nav li{
+        padding: 10px;
+    } */
+
+
+
+
+
+    .nav .navbar{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #fff;
+        padding: 0 10px;
+    }
+
+    .nav .icerik img{
+        width: 100px;
+    }
+
+    .nav .icerik .input input{
+        width: 220px;
+        height: 40px;
+        margin-left: 50px;
+        background-color: #f3f3f3;
+        border: none;
+        border-radius: 6px;
+        font-size: 13px;
+        padding: 5px 15px;
+        outline: none;
+    }
+
+    .icerik-10 i{
+        font-size: 18px;
+    }
+
+    .icerik-10 .fa-bars{
+        display: block;
+        margin-left: 12px;
+        margin-bottom: 5px;
+    }
+
+    .icerik-10 .fa-x{
+        margin-left: 12px;
+        margin-bottom: 5px;
+    }
+
+    .gizli{
+        padding-top: 10px;
+        margin-left: 12px;
+    }
+
+    #gizli li{
+        padding: 8px 0;
+    }
+
+    #gizli li a{
+        font-size: 15px;
+    }
+
+    #gizli li .a-bir{
+        font-size: 20px;
+        color: #229f43;
+        border-bottom: 2px solid #333;
+        font-weight: bold;
+    }
+
+    .bars{
+        display: none;
+    }
+
+    .kart-3{
+        width: 100%;
+    }
+
+    .kart-3 .kartlar{
+        
+    }
+
+    .kart-3 .kartlar img{
+        height: 90px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }    
+
+    .urunler .urunler-1 img{
+        width: 100%;
+    }
+
+    .cok-satan .satanlar{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cok-satan .satanlar .kart1{
+        width: 80%;
+        padding: 6px;
+        margin: 5px 3px;
+    }
+
+}
